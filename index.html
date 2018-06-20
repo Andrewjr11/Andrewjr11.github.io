@@ -17,6 +17,14 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
 
+<link href="./files/fav/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image">
+<link href="./files/fav/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image">
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Andrewjr11</title>
@@ -996,29 +1004,6 @@ Andrewjr11
 <script type="text/javascript" src="./files/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="./files/js/inobounce.min.js"></script>
 <script type="text/javascript" src="./files/js/andrewjr11.js"></script>
-<script>
-import { ConnectedRouter, push } from 'react-router-redux';
-
-class PersistedConnectedRouter extends ConnectedRouter {
-  componentWillMount() {
-    const { store: propsStore, history, isSSR } = this.props;
-    this.store = propsStore || this.context.store;
-
-    if (!isSSR) {
-      this.unsubscribeFromHistory = history.listen(this.handleLocationChange);
-    }
-	
-    const location = this.store.getState().router.location || {};
-    if (location.pathname !== history.location.pathname) {
-      this.store.dispatch(push(location.pathname));
-    }
-    this.handleLocationChange(history.location);
-    // --
-  }
-}
-
-export default PersistedConnectedRouter;
-</script>
 
 </body>
 </html>
