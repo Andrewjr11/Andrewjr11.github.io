@@ -70,7 +70,7 @@
   max-width: 375px;
   margin-top: 0px;
   opacity: 100;
-  background: #222426;
+  background: #000 /*#222426*/;
   box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.22);
   border-radius: 15px;
   height: auto;
