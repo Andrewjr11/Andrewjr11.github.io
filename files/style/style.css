@@ -101,6 +101,10 @@
   width: 100%;
 }
 
+.app-card-2 p {
+	padding: 0px 20px;
+}
+
 .layout-dark .app-card-2 {
   text-align: left;
   margin: 16px;
