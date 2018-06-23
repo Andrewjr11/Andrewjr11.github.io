@@ -1,6 +1,5 @@
 * {
   -webkit-touch-callout: none;
-  /*-webkit-user-select: none;*/
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -54,7 +53,6 @@
 }
 
 .app-card {
-  /*margin: 16px;*/
   max-width: 375px;
   margin-top: 0px;
   opacity: 100;
@@ -109,12 +107,16 @@
   margin-top: 0px;
   max-width: 375px;
   opacity: 100;
-  background: #222426;
+  background: #000000 /*#393a3c*/;
   box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.22);
   border-radius: 15px;
   height: auto;
   display: block;
   width: 100%;
+}
+
+.layout-dark .toolbar-inner {
+    background: #000;
 }
 
 .app-card .list-block {
@@ -293,6 +295,10 @@
   background-color: #222426;
 }
 
+.layout-dark .item-content {
+  background-color: #000000;
+}
+
 .layout-dark .section-header .item-title {
   color: #fff;
 }
@@ -305,7 +311,6 @@
   text-align: center;
   font-size: 18px;
   background: #0000;
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -334,7 +339,7 @@
     height: 44px;
 }
 
-/*Tab Icons*/
+/* Tab icons */
 
 i.icon-today {
   width: 30px;
