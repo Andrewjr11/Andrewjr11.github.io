@@ -119,6 +119,10 @@
   width: 100%;
 }
 
+.layout-dark .app-card-2 h2 {
+  color: white;
+}
+
 .layout-dark .toolbar-inner {
     background: #000;
 }
