@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="pixel-ratio-1 watch-active-state">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<link rel="apple-touch-icon" sizes="152x152" href="../fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+<link rel="manifest" href="../fav/site.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Andrewjr11">
+<meta name="application-name" content="Andrewjr11">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Andrewjr11 - Metodo a Strati</title>
+<link rel="stylesheet" href="../style/framework7.ios.min.css">
+<link rel="stylesheet" href="../style/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="../style/style.css">
+
+</head>
+
+<body id="body" onload="init();" class="layout-white framework7-root">
+<div class="statusbar-overlay"></div>
+<div class="views tabs navbar-through toolbar-through">
+<div id="categorie.html" class="view view-main tab active">
+<div class="pages">
+<div data-page="index" class="page">
+<div class="page-content pull-to-refresh-content" style="margin-top: -15px;" data-ptr-distance="55">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<div class="content-block">
+<h1 class="header" style="margin-top:-60px; margin-bottom:0px; text-align:center;">Metodo a Strati  <i class="fas fa-cube"></i></h1>
+<center>
+<div class="hr"></div>
+<div class="content-block" style="max-width:414px; margin: 16px; margin-left: -16px;">
+
+<style>.app-card-2 p {text-align: center;}.app-card-2 h2{text-align: center; padding-right: 5px; padding-left: 10px; padding-top: 15px; color: black; margin-bottom: -5px; margin-bottom: 0px;}</style>
+
+<div class="app-card-2">
+<h2>Risolvere il cubo di Rubik</h2>
+<p>
+Primo Livello:
+<br><br>
+1)	Croce bianca = Formare una croce bianca con il centro giallo, spostare in basso la croce pezzo per pezzo con il proprio colore corrispondente.
+<br><br>
+2)	Angoli bianchi = Spostare gli angoli bianchi con la “Corner move”, sposto > abbasso > carico > sparo.
+<br><br>
+A.	Caso 1, l’angolo bianco si trova nell’ultimo strato = usare la “Corner move” normalmente.
+<br>
+B.	Caso 2, l’angolo bianco si trova nella faccia inferiore = posizionare l’angolo bianco nella posizione corrispondente e portarlo su con una “Upper move”, abbasso > sposto x2 > sparo.
+<br>
+C.	Caso 3, l’angolo bianco si trova in un altro livello = spostare l’angolo bianco con una “Lower move”, abbasso > sposto > sparo.
+<br><br>
+Secondo Livello:
+<br><br>
+1)	Formare le “T” = scegliere un pezzo che non abbia il giallo e formare una “T” con la faccia del colore corrispondente, applicare la “Corner move” x2 volte.
+<br><br>
+A.	Caso 1, non si può utilizzare nessun pezzo = considerare un pezzo come se ci fosse la “T” e applicare normalmente la “Corner move” x2 volte in modo da sbloccare dei pezzi da utilizzare.
+<br><br>
+Terzo Livello:
+<br><br>
+1)	Croce gialla = formare una croce gialla applicando il seguente algoritmo: F U R U’ R’ F’.
+<br><br>
+A.	Caso 1, si ha un boomerang = orientarlo con l’apertura verso Nord-Ovest (in alto a sinistra) e applicare l’algoritmo.
+<br>
+B.	Caso 2, si ha una striscia centrale o solo Il centro = orientarla orizzontalmente e applicare l’algoritmo x2 volte.
+<br><br>
+2)	Angoli gialli = spostare gli angoli gialli nelle posizioni corrispondenti applicando il seguente algoritmo x3 volte orientando il cubo in modo giusto ogni volta: R U R’ U R U U R’.
+<br><br>
+A.	Caso 1, non si ha nessun angolo giallo = orientare il pezzo giallo che si vuole portare sopra in modo tale che si trovi verso Ovest (a sinistra) e applicare l’algoritmo.
+<br>
+B.	Caso 2, si ha 1 solo angolo = orientare il cubo in modo tale che l’angolo si trovi a Sud-Ovest (in basso a sinistra) e applicare l’algoritmo.
+<br>
+C.	Caso 3, si hanno più angoli = orientare il pezzo giallo che si vuole portare sopra in modo tale che si trovi verso Sud (di fronte a te) e applicare l’algoritmo.
+<br><br>
+3)	Angoli laterali = applicare il seguente algoritmo: R’ F R’ B B R F’ R’ B B R R.
+<br><br>
+A.	Caso 1, si hanno gli angoli laterali posizionati con il colore della faccia corrispondente = applicare l’algoritmo.
+<br>
+B.	Caso 2, si ha almeno una faccia con gli angoli posizionati in modo corretto = orientare il cubo in modo tale che la faccia corretta si trovi verso Nord (indietro) e applicare l’algoritmo.
+<br><br>
+4)	Pezzo centrale = applicare il seguente algoritmo: F F U L R’ F F L’ R U F F.
+<br><br>
+A.	Caso 1, nessuno dei pezzi rimanenti è corretto = applicare l’algoritmo x2 volte.
+<br>
+B.	Caso 2, una sola faccia è completata = orientare il cubo in modo tale che la faccia completata sia rivolta verso Nord (indietro) e applicare l’algoritmo.
+</p>
+<br>
+</div>
+
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="toolbar tabbar tabbar-labels">
+<div class="toolbar-inner">
+<a href="../../index.html" class="tab-link">
+<i class="icon icon-today"></i>
+<span class="tabbar-label">Home</span>
+</a>
+<a href="../sezioni/categorie.html" class="tab-link active">
+<i class="icon icon-apps"></i>
+<span class="tabbar-label">Categorie</span>
+</a>
+<a href="../sezioni/widgets.html" class="tab-link">
+<i class="icon icon-games"></i>
+<span class="tabbar-label">Widgets</span>
+</a>
+<a href="../sezioni/cerca.html" class="tab-link">
+<i class="icon icon-search"></i>
+<span class="tabbar-label">Cerca</span>
+</a>
+<a href="../sezioni/info.html" class="tab-link">
+<i class="fas fa-info" style="padding-top: 7px;"></i>
+<span class="tabbar-label">Info</span>
+</a>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/inobounce.min.js"></script>
+<script type="text/javascript" src="../js/andrewjr11.js"></script>
+
+</body>
+</html>
