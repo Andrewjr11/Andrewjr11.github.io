@@ -46,6 +46,8 @@ figure,header,footer,nav,article,section{margin:0}
 
 .small{font:12px/19px Arial,Helvetica,Geneva,sans-serif}
 
+.small2{margin-left:55px;font:12px/19px Arial,Helvetica,Geneva,sans-serif}
+
 .ads-inline,.banner{margin-bottom:30px}
 
 .centrato,#ad300250top,#tecnoblog-posizione-sidebar,.ads-inline{text-align:center}
@@ -90,7 +92,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 #pageContentHead{margin-bottom:15px;margin-top:15px}
 
-#sidebar{float:right;width:/*300px*/240px;overflow:auto;margin-bottom:40px;margin-top:/*20px*//*5%*//*-5px*/10%;margin-left:2%;margin-right:-3px}
+#sidebar{float:right;width:/*300px*/240px;overflow:auto;margin-bottom:40px;margin-top:/*20px*//*5%*//*-5px*/12%;margin-left:2%;margin-right:-3px}
 
 .column{float:right;width:285px;overflow:auto}
 
