@@ -1,4 +1,4 @@
-body{margin-top:40px;background:whitesmoke;color:#232323;font:16px Georgia,"Times New Roman",Times,serif;line-height:22px;margin:0;-ms-word-wrap:break-word;word-wrap:break-word}
+body{margin-top:40px;background:/*whitesmoke*/white;color:#232323;font:16px Georgia,"Times New Roman",Times,serif;line-height:22px;margin:0;-ms-word-wrap:break-word;word-wrap:break-word}
 
 a{color:#0086df;text-decoration:none}
 
@@ -47,6 +47,8 @@ figure,header,footer,nav,article,section{margin:0}
 .small{font:12px/19px Arial,Helvetica,Geneva,sans-serif}
 
 .small2{margin-left:55px;font:12px/19px Arial,Helvetica,Geneva,sans-serif}
+
+.small3{margin-left:60px;font:12px/19px Arial,Helvetica,Geneva,sans-serif}
 
 .ads-inline,.banner{margin-bottom:30px}
 
