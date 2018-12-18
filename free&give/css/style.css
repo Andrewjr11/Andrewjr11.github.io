@@ -74,7 +74,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 #search{float:right}
 
-#search input{width:189px;margin-right:-3px;border:none;font:16px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;padding:5px /*10*/40px 5px /*35*/10px;}
+#search input{width:189px;/*margin-right:-3px;*/border:none;font:16px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;padding:5px /*10*/40px 5px /*35*/10px;}
 
 #primaryNav li{font-size:18px;border-right:2px solid #599cc1;padding:5px 14px 5px 10px;position:relative}
 
@@ -94,7 +94,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 #pageContentHead{margin-bottom:15px;margin-top:15px}
 
-#sidebar{float:right;width:/*300px*/240px;overflow:auto;margin-bottom:40px;margin-top:/*20px*//*5%*//*-5px*/12%;margin-left:2%;margin-right:-3px}
+#sidebar{float:right;width:/*300px*/240px;overflow:auto;margin-bottom:40px;margin-top:11%/*12%*/;margin-left:2%;/*margin-right:-3px*/}
 
 .column{float:right;width:285px;overflow:auto}
 
