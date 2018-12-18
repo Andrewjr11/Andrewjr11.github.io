@@ -1,4 +1,4 @@
-body{margin-top:40px;background:/*whitesmoke*/white;color:#232323;font:16px Georgia,"Times New Roman",Times,serif;line-height:22px;margin:0;-ms-word-wrap:break-word;word-wrap:break-word}
+body{margin-top:40px;color:#232323;font:16px Georgia,"Times New Roman",Times,serif;line-height:22px;margin:0;-ms-word-wrap:break-word;word-wrap:break-word}
 
 a{color:#0086df;text-decoration:none}
 
@@ -46,10 +46,6 @@ figure,header,footer,nav,article,section{margin:0}
 
 .small{font:12px/19px Arial,Helvetica,Geneva,sans-serif}
 
-.small2{margin-left:55px;font:12px/19px Arial,Helvetica,Geneva,sans-serif}
-
-.small3{margin-left:60px;font:12px/19px Arial,Helvetica,Geneva,sans-serif}
-
 .ads-inline,.banner{margin-bottom:30px}
 
 .centrato,#ad300250top,#tecnoblog-posizione-sidebar,.ads-inline{text-align:center}
@@ -58,13 +54,11 @@ figure,header,footer,nav,article,section{margin:0}
 
 #ad97090{display:block;line-height:0}
 
-#page{position:relative;padding-top:3px;/*background-color:#fff;*/padding-left:27px;padding-right:27px}
+#page{position:relative;padding-top:3px;background-color:#fff;padding-left:27px;padding-right:27px}
 
-#header{position:relative;background-color:#037db0;margin-right:auto;height:64px;margin-left:auto;/*width:960px*/}
+#header{position:relative;background-color:#037db0;margin-right:auto;height:64px;margin-left:auto;}
 
 #header .content{display:block;padding-top:16px;height:30px}
-
-#header li.nowtv::after{content:'new';font:10px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;display:block;position:absolute;background-color:#e20000;padding:2px;border-radius:2px;line-height:1;color:#fff;top:0;right:-8px}
 
 #aranzulla-logo,#tt-logo,#primaryNav{float:left;margin-top:0}
 
@@ -74,7 +68,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 #search{float:right}
 
-#search input{width:189px;margin-right:-3px;border:none;font:16px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;padding:5px /*10*/40px 5px /*35*/10px;}
+#search input {width: 189px;border: none;font: 16px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;padding: 5px /*10*/40px 5px /*35*/10px;}
 
 #primaryNav li{font-size:18px;border-right:2px solid #599cc1;padding:5px 14px 5px 10px;position:relative}
 
@@ -84,23 +78,23 @@ figure,header,footer,nav,article,section{margin:0}
 
 #primaryNav a{color:#fff;font-size:18px}
 
-#footer{width:/*936px*/100%;margin-right:auto;margin-left:auto;font:12px Arial,Helvetica,Geneva,sans-serif;border-top:1px solid #dbdbdb;padding-top:9px;padding-bottom:20px;clear:both}
+#footer{width:100%;text-align:center;margin-right:auto;margin-left:auto;font:12px Arial,Helvetica,Geneva,sans-serif;border-top:1px solid #dbdbdb;padding-top:9px;padding-bottom:20px;clear:both}
 
-#footer ul{/*margin-left:5px*/text-align:center}
+#footer ul{margin-left:5px}
 
 #footer a{color:#4d4e50;border-right-style:solid;padding-right:5px;margin-right:3px;border-width:1px;border-color:#dadbda}
 
-#pageContent{width:/*588px*/100%;float:left;margin-bottom:40px}
+#pageContent{/*width:588px;*/float:left;margin-bottom:40px}
 
 #pageContentHead{margin-bottom:15px;margin-top:15px}
 
-#sidebar{float:right;width:/*300px*/240px;overflow:auto;margin-bottom:40px;margin-top:/*20px*//*5%*//*-5px*/12%;margin-left:2%;margin-right:-3px}
+#sidebar{float:right;width:300px;overflow:auto;margin-bottom:40px;margin-top:-40px}
 
 .column{float:right;width:285px;overflow:auto}
 
 .center{text-align:center}
 
-.inline{/*display:inline*/}
+.inline{display:inline}
 
 .inline li{display:inline}
 
@@ -114,7 +108,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 .separator{border-color:#a9a9a9;border-style:dotted;border-width:0 0 1px}
 
-.content,.content--locked{width:906px/*90%*/;margin-right:auto;margin-left:auto;z-index:100;position:relative}
+.content,.content--locked{width:906px;margin-right:auto;margin-left:auto;z-index:100;position:relative}
 
 .box{background-color:#f1f1f1;border:1px solid #dbdbdb;border-top-style:none;border-left-style:none;padding:18px}
 
@@ -138,7 +132,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 .error .emoticon{font-size:80px;line-height:110px}
 
-.contentList{margin-bottom:30px}
+.contentList{margin-bottom:0px}
 
 .subCat .contentList{margin-top:20px}
 
@@ -150,13 +144,13 @@ figure,header,footer,nav,article,section{margin:0}
 
 .articleGrid{clear:both;margin-bottom:30px}
 
-.articleGrid .contentPreview{border:none;padding:0;margin-top:0;position:relative;padding-bottom:20px;margin-bottom:0;margin-left:18px}
+.articleGrid .contentPreview{border:none;padding:0;margin-top:0;position:relative;padding-bottom:20px;margin-bottom:0}
 
 .articleGrid .heading4{margin-bottom:14px}
 
 .articleGrid .column:nth-child(2n){margin-left:18px}
 
-.row{clear:both;overflow:auto;width:101%;    overflow: auto;border-color: #a9a9a9;border-style: dotted;border-width: 0;border-bottom-width: 1px}
+.row{clear:both;overflow:auto}
 
 #pageContent .contentList ul{margin:0}
 
@@ -208,7 +202,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 #about footer{border-color:#a9a9a9;border-style:dotted;border-width:0 0 1px;border-bottom-width:0;border-top-width:1px;padding-top:13px;overflow:auto;clear:left}
 
-#aboutLinks{display:block;/*margin-bottom:10px*/}
+#aboutLinks{display:block;margin-bottom:10px}
 
 .social ul{float:left;margin-left:10px}
 
@@ -228,7 +222,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 .home h1{font-size:21px;margin-top:20px}
 
-.titleOverlay{display:block;position:absolute;bottom:34px;width:/*100%*/auto}
+.titleOverlay{display:block;position:absolute;bottom:34px;width:100%}
 
 .articleGrid .titleOverlay{bottom:30px}
 
@@ -430,15 +424,13 @@ figure,header,footer,nav,article,section{margin:0}
 
 #search{float:none;margin-bottom:10px;margin-top:10px;width:100%}
 
-#search input{width:190px;border:none;font:16px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;padding:5px /*10*/40px 5px /*35*/10px;}
-
 figure{margin-top:20px;margin-bottom:20px}
 
 #page{padding-right:5%;padding-left:5%}
 
 .content,.content--locked{width:90%;margin-right:auto;margin-left:auto;float:none}
 
-#sidebar,#footer,#pageContent,.contentPreview{width:100%;margin-left:0;margin-right:0;margin-bottom:0;margin-top:0;padding-left:0;padding-right:0}
+#sidebar,#footer,#pageContent,.contentPreview{width:100%;margin-left:0;margin-right:0;padding-left:0;padding-right:0}
 
 #about figure{margin-top:0}
 
@@ -448,7 +440,7 @@ figure{margin-top:20px;margin-bottom:20px}
 
 .articleGrid .column{margin-left:0!important}
 
-.contentPreview a img,.archive .contentPreview figure img{display:block;width:100%;height:auto/*150px*/}
+.contentPreview a img,.archive .contentPreview figure img{display:block;width:100%;height:auto}
 
 .articleGrid .contentPreview{margin-bottom:20px}
 
