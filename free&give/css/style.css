@@ -156,7 +156,7 @@ figure,header,footer,nav,article,section{margin:0}
 
 .articleGrid .column:nth-child(2n){margin-left:18px}
 
-.row{clear:both;overflow:auto;width:101%;    overflow: auto;border-color: #a9a9a9;border-style: dotted;border-width: 0;border-bottom-width: 1px}
+.row{clear:both;overflow:auto;width:101%;overflow: auto;border-color: #a9a9a9;border-style: dotted;border-width: 0;border-bottom-width: 1px;margin-left:-3px}
 
 #pageContent .contentList ul{margin:0}
 
@@ -517,6 +517,8 @@ figure{margin-top:20px;margin-bottom:20px}
 .c-alert-bar__text__caption{width:48%}
 
 .c-alert-bar__text__button,.c-alert-bar__text__button:link,.c-alert-bar__text__button:visited{max-width:45%;font-size:14px}
+
+.row{clear:both;overflow:auto;width:101%;overflow: auto;border-color: #a9a9a9;border-style: dotted;border-width: 0;border-bottom-width: 1px;}
 
 }
 

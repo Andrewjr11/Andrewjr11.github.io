@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<!-- Script iniziale -->
+<script id="allow-copy_script">(function agent() {
+	let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()
+</script>
+<!-- /Script iniziale -->
+
+<!-- Links -->
+<title>✔ Free&Give ✔</title>
+<link rel="stylesheet" href="../../../css/sezioni-style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../fav/favicon-16x16.png">
+<link rel="manifest" href="../../../fav/site.webmanifest">
+<link rel="mask-icon" href="../../../fav/safari-pinned-tab.svg" color="#5bbad5">
+<!-- /Links -->
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="fb:pages" content="185733358679">
+<meta name="viewport" content="width=device-width">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="Free&amp;Give">
+<meta name="application-name" content="Free&amp;Give">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<!-- /Meta -->
+
+<!-- Header -->
+<header id="header">
+<div class="content">
+<a href="../../../index.html" class="logo" id="aranzulla-logo"><h1 class="logo2" id "freegive-logo" style="margin:0px 0px"><span style="color:lime">✔</span><span style="color:red"> Free&Give </span><span style="color:lime">✔</span></h2><!--<img src="./img/logo.png.pagespeed.ce.VDUd3HxLHh.png" alt="Free&Give"></a>-->
+<nav id="primaryNav" role="navigation">
+<ul class="inline">
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<!--<li class="nowtv"><a href="" rel="nofollow" target="_blank">Info</a></li>-->
+</ul>
+</nav>
+<form action="https://www.google.it/search" target="_blank" id="search">
+<input type="text" name="q" data-type="searchinput" class="text" placeholder="Cerca...">
+</form>
+</div>
+</header>
+<!-- /Header -->
+
+<!-- Articoli -->
+<div id="page" class="content">
+<ol class="breadcrumbs"><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../index.html" rel="home" itemprop="url" class="title"><span itemprop="title">Home</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../sezioni/sezione.html" itemprop="url" class="title"><span itemprop="title">Sezione</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./categoria.html" itemprop="url" class="title"><span itemprop="title">Categoria</span></a></li></ol>
+<div id="pageContent" class="archive subCat">
+<header id="pageContentHead">
+<h1>Titolo</h1>
+</header>
+<div class="contentList">
+<ul>
+<li class="separator">
+<a href="./articolo.html"><span class="heading2">Articolo</span></a>
+</li>
+
+</ul>
+</div>
+</div>
+<!-- /Articoli -->
+
+<!-- Sidebar -->
+<div id="sidebar">
+<div id='ad300250top' class='banner centrato'></div>
+<div class="category contentList box">
+<header>
+<h2>Categorie</h2>
+</header>
+
+<ul>
+
+<li class="cat-item cat-item-20861"><a href="../cartella/categoria.html">Categoria</a>
+<ul class='children'>
+</ul>
+</li>
+
+</ul>
+</div>
+<!-- /Sidebar -->
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+<ul class="inline">
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<li><a href="../../../sezioni/tos.html">TOS</a></li>
+</ul>
+<br><br>
+<ul class="inline">
+<li><a href="../../../sezioni/tos.html" style="color:red">Avviso</a>Il team di "© ✔ Free&Give ✔" non si assume nessuna responsabilità dei contenuti qui presenti e dell'uso che ne farete.
+</li>
+</ul>
+</footer>
+<!-- /Footer -->
+
+</body>
+</html>
