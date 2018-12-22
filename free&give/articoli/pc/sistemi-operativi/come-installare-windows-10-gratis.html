@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<!-- Script iniziale -->
+<script id="allow-copy_script">(function agent() {
+	let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()
+</script>
+<!-- /Script iniziale -->
+
+<!-- Links -->
+<title>✔ Free&Give ✔</title>
+<link rel="stylesheet" href="../../../css/articoli-style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../fav/favicon-16x16.png">
+<link rel="manifest" href="../../../fav/site.webmanifest">
+<link rel="mask-icon" href="../../../fav/safari-pinned-tab.svg" color="#5bbad5">
+<!-- /Links -->
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="fb:pages" content="185733358679">
+<meta name="viewport" content="width=device-width">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="Free&amp;Give">
+<meta name="application-name" content="Free&amp;Give">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<!-- /Meta -->
+
+<!-- Header -->
+<header id="header">
+<div class="content">
+<a href="../../../index.html" class="logo" id="aranzulla-logo"><h1 class="logo2" id "freegive-logo" style="margin:0px 0px"><span style="color:lime">✔</span><span style="color:red"> Free&Give </span><span style="color:lime">✔</span></h2><!--<img src="./img/logo.png.pagespeed.ce.VDUd3HxLHh.png" alt="Free&Give"></a>-->
+<nav id="primaryNav" role="navigation">
+<ul class="inline">
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<!--<li class="nowtv"><a href="" rel="nofollow" target="_blank">Info</a></li>-->
+</ul>
+</nav>
+<form action="https://www.google.it/search" target="_blank" id="search">
+<input type="text" name="q" data-type="searchinput" class="text" placeholder="Cerca...">
+</form>
+</div>
+</header>
+<!-- /Header -->
+
+<!-- Articolo -->
+<div id="page" class="content">
+<ol class="breadcrumbs"><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../index.html" rel="home" itemprop="url" class="title"><span itemprop="title">Home</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../sezioni/pc.html" rel="home" itemprop="url" class="title"><span itemprop="title">PC</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./sistemi-operativi.html" rel="home" itemprop="url" class="title"><span itemprop="title">Sistemi operativi</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./come-installare-windows-10-gratis.html" itemprop="url" class="title"><span itemprop="title">Come installare Windows 10 gratis</span></a></li></ol>
+<div id="pageContent" class="post">
+
+<!-- Intestazione -->
+<article>
+<header id="pageContentHead">
+<h1>Come installare Windows 10 gratis</h1>
+<span class="author">di <a href="http://bit.ly/andrewjr11" target="_blank" rel="author">Andrewjr11</a> </span>
+</header>
+<!-- /Intestazione -->
+
+<!-- Introduzione -->
+<section class="entry" id="entry-content">
+<p>Vorresti installare sul tuo PC l'ultima versione di <strong>Windows 10</strong> in modo totalmente gratuito? Bene, sei nel posto giusto. Il processo non richiede nessun'abilità particolare nell'ambito informatico perché il tutto avverrà quasi in automatico.</p>
+<p><strong>Microsoft</strong> permette di scaricare Windows 10 gratis in italiano grazie a uno strumento chiamato <strong>MediaCreationTool</strong>. Questo pratico strumento ci consente di scaricare l’ISO di Windows 10 in assoluta tranquillità grazie a una procedura guidata.</p>
+<p>Inoltre ci consente anche di creare una chiavetta USB bootabile per installare comodamente il sistema operativo quando vogliamo.</p>
+<!-- /Introduzione -->
+
+<!-- Indice -->
+<h2 class="ah"><strong>Indice</strong></h2><ul class="ah">
+<li><a href="#chapter1">Download Windows 10</a>
+<ul>
+<li><a href="#sub-chapter1">Tool di installazione</a></li>
+</ul>
+</li>
+<li><a href="#chapter2">Dispositivo di installazione</a>
+<ul>
+<li><a href="#sub-chapter2">USB</a></li>
+<li><a href="#sub-chapter3">DVD</a></li>
+</ul>
+</li>
+<li><a href="#chapter3">Installazione Windows 10</a>
+<ul>
+<li><a href="#sub-chapter4">BIOS</a></li>
+</ul>
+</li>
+<li><a href="#chapter4">Articolo</a>
+<ul>
+<li><a href="#sub-chapter5">Altro</a></li>
+<li><a href="#sub-chapter6">FAQ</a></li>
+</ul>
+</li>
+</ul>
+<!-- /Indice -->
+
+<!-- Download Windows 10 -->
+<p><a name="chapter1"></a></p>
+<h2><strong>Download Windows 10</strong></h2>
+<p><a name="sub-chapter1"></a></p>
+<h3>Tool di installazione</h3>
+<p>Come prima cosa è indispensabile avere il tool ufficiale Microsoft per installare Windows 10. Questo strumento serve a creare un supporto da inserire nel PC sul quale vogliamo installare il nostro sistema operativo.</p>
+<ul>
+<li><p>1) <strong>Scarica</strong> il tool ufficiale Microsoft per installare Windows 10 (<a href="https://www.microsoft.com/it-it/software-download/windows10">Clicca qui</a>).</p></li>
+<li><p>2) <strong>Clicca</strong> su "Scarica ora lo strumento".</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura-600x461.png" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura-600x461.png 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura-600x461.png 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>3) <strong>Inserisci</strong> il supporto che hai scelto per l'installazione (USB o DVD da minimo 8GB).</p></li>
+<li><p>4) <strong>Avvia</strong> il tool di Windows appena scaricato e accetta le condizioni di licenza per proseguire.</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura1-600x474.png" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura1-600x474.png 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura1-600x474.png 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>5) <strong>Scegli</strong> l'opzione "Crea supporti di installazione (unità flash USB, DVD o file ISO) per un altro PC".</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura2-600x474.png" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura2-600x474.png 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/Cattura2-600x474.png 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>6) <strong>Togli</strong> la spunta a "Usa le impostazioni consigliate" e <strong>seleziona</strong>: lingua, architettura ed edizione di Windows che vuoi installare. (Se vuoi, altrimenti <strong>clicca</strong> diretamente su "Avanti").</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaF-600x474.jpg" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaF-600x474.jpg 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaF-600x474.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>7) Adesso la procedura varia a seconda del supporto che hai scelto:</p></li>
+<ul>
+<li><p><a href="#sub-chapter2">USB</a></p></li>
+<li><p><a href="#sub-chapter3">DVD</a></p></li>
+</ul>
+</ul>
+<!-- /Download Windows 10 -->
+
+<!-- Dispositivo di installazione -->
+<p><a name="chapter2"></a></p>
+<h2><strong>Dispositivo di installazione</strong></h2>
+<p><a name="sub-chapter2"></a></p>
+<h3>USB</h3>
+<p>Questa è l’installazione più semplice:</p>
+<ul>
+<li><p>1) <strong>Seleziona</strong> come supporto "Unità flash USB".</p></li>
+<li><p>2) <strong>Seleziona</strong> l’unità USB che hai inserito in precedenza.</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB-1-600x474.png" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB-1-600x474.png 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB-1-600x474.png 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>3) <strong>Clicca</strong> su "Avanti" e ti basterà attendere la fine della procedura per avere la tua USB pronta all'installazione.</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB1-1-600x474.png" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB1-1-600x474.png 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaUSB1-1-600x474.png 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+</ul>
+
+<p><a name="sub-chapter3"></a></p>
+<h3>DVD</h3>
+<p>L’installazione tramite DVD è un po’ più lunga in quanto non può essere effettuata dal tool, ma devi farla manualmente dopo aver scaricato il file ISO di Windows, quindi:</p>
+<ul>
+<li><p>1) <strong>Clicca</strong> su "File ISO".</p></li>
+<li><p>2) <strong>Scegli</strong> il pecorso e il nome del download.</p></li>
+<li><p>3) <strong>Clicca</strong> su "Avanti".</p></li>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaISO-600x474.jpg" width="610" height="461" srcset="https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaISO-600x474.jpg 610w, https://www.chimerarevo.com/wp-content/uploads/2018/01/CatturaISO-600x474.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>4) <strong>Clicca</strong> col <strong>tasto destro</strong> sul file scaricato.</p></li>
+<li><p>5) <strong>Seleziona</strong> "Masterizza immagine disco".</p></li>
+<li><p>6) <strong>Scegli</strong> il DVD inserito in precedenza.</p></li>
+<li><p>7) <strong>Clicca</strong> su "Masterizza" e <strong>attendi</strong> la fine dell'esecuzione del processo.</p></li>
+</ul>
+<!-- /Dispositivo di installazione -->
+
+<!-- Installazione Windows 10 -->
+<p><a name="chapter3"></a></p>
+<h2><strong>Installazione Windows 10</strong></h2>
+<p><a name="sub-chapter4"></a></p>
+<h3>BIOS</h3>
+<p>Giunto a questo punto:</p>
+<ul>
+<li><p>1) <strong>Inserisci</strong> il dispositivo che hai appena creato nel PC sul quale vuoi installare Windows 10.</p></li>
+<li><p>2) <strong>Entra</strong> nel BIOS e <strong>imposta</strong>, dalla scheda di "Boot", il tuo dispositivo come primo in ordine di avvio.</p></li>
+<li><p>3) <strong>Avvia</strong> la procedura di installazione e prosegui fino al riavvio.</p></li>
+</ul>
+<h4 style="color:red">Attenzione</h4>
+<p>Giunti qui ti basterà cliccare su "Non ho un codice Product Key" per poter proseguire ed inserire il codice in seguito. Ti ricordo che per le "Condizioni di licenza per il software Microsoft" installare Windows 10 e utilizzarlo senza licenza è illegale, quindi sei tenuto a procurartene una valida per poter proseguire con il tuo software senza problemi.</p>
+<!-- /Installazione Windows 10 -->
+
+<!-- Altro + FAQ -->
+<p><a name="chapter4"></a></p>
+<h2><strong>Articolo</strong></h2>
+<p><a name="sub-chapter5"></a></p>
+<h3>Altro</h3>
+<p>Ecco a te altri contenuti simili che puoi consultare:</p>
+<ul>
+<li><p style="color:green">Video guide</p>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/utbwN2TqJA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/czbzvrAUbrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+<li><p style="color:green">Articoli</p>
+<ul>
+<li><a href="https://www.chimerarevo.com/guide/windows/scaricare-windows-10-gratis-190640/" target="_blank">Come scaricare Windows 10 gratis</a></li>
+<li><a href="https://www.chimerarevo.com/guide/windows/installare-windows-10-282682/" target="_blank">Come installare Windows 10</a></li>
+</ul>
+</li>
+</ul>
+
+<p><a name="sub-chapter11"></a></p>
+<h3>FAQ</h3>
+<p>In questo capitolo cercherò di rispondere alle <strong>domande più frequenti</strong> riguardo questo articolo:</p>
+<ul>
+<li><h3 style="color:#0086df">Non sono disponibili domande per questo articolo.</h3></li>
+</ul>
+<br>
+<p style="margin-bottom:0">Se hai altre domande da fare, puoi contattarci al seguente indirizzo mail:<a href="https://gmail.com" target="_blank" style="color:green"> freegiveblog@gmail.com</a></p>
+<!-- /Altro + FAQ -->
+
+</article>
+
+</div>
+</div>
+<!-- /Articolo -->
+
+<!-- Footer -->
+<footer id="footer">
+<ul class="inline">
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<li><a href="../../../sezioni/tos.html">TOS</a></li>
+</ul>
+<br><br>
+<ul class="inline">
+<li><a href="../../../sezioni/tos.html" style="color:red">Avviso</a>Il team di "© ✔ Free&Give ✔" non si assume nessuna responsabilità dei contenuti qui presenti e dell'uso che ne farete.
+</li>
+</ul>
+</footer>
+<!-- /Footer -->
+
+</body>
+</html>
