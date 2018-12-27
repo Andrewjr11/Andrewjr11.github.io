@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<!-- Script iniziale -->
+<script id="allow-copy_script">(function agent() {
+	let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()
+</script>
+<!-- /Script iniziale -->
+
+<!-- Links -->
+<title>✔ Free&Give ✔</title>
+<link rel="stylesheet" href="../../../css/articoli-style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../fav/favicon-16x16.png">
+<link rel="manifest" href="../../../fav/site.webmanifest">
+<link rel="mask-icon" href="../../../fav/safari-pinned-tab.svg" color="#5bbad5">
+<!-- /Links -->
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="fb:pages" content="185733358679">
+<meta name="viewport" content="width=device-width">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="Free&amp;Give">
+<meta name="application-name" content="Free&amp;Give">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<!-- /Meta -->
+
+<!-- Header -->
+<header id="header">
+<div class="content">
+<a href="../../../index.html" class="logo" id="aranzulla-logo"><h1 class="logo2" id "freegive-logo" style="margin:0px 0px"><span style="color:lime">✔</span><span style="color:red"> Free&Give </span><span style="color:lime">✔</span></h2><!--<img src="./img/logo.png.pagespeed.ce.VDUd3HxLHh.png" alt="Free&Give"></a>-->
+<nav id="primaryNav" role="navigation">
+<ul class="inline">
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<!--<li class="nowtv"><a href="" rel="nofollow" target="_blank">Info</a></li>-->
+</ul>
+</nav>
+<form action="https://www.google.it/search" target="_blank" id="search">
+<input type="text" name="q" data-type="searchinput" class="text" placeholder="Cerca...">
+</form>
+</div>
+</header>
+<!-- /Header -->
+
+<!-- Articolo -->
+<div id="page" class="content">
+<ol class="breadcrumbs"><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../index.html" rel="home" itemprop="url" class="title"><span itemprop="title">Home</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../sezioni/web.html" rel="home" itemprop="url" class="title"><span itemprop="title">Web</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./navigazione.html" rel="home" itemprop="url" class="title"><span itemprop="title">Navigazione</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./come-navigare-anonimamente-sul-web.html" itemprop="url" class="title"><span itemprop="title">Come navigare anonimamente sul web</span></a></li></ol>
+<div id="pageContent" class="post">
+
+<!-- Intestazione -->
+<article>
+<header id="pageContentHead">
+<h1>Come navigare anonimamente sul web</h1>
+<span class="author">di <a href="http://bit.ly/andrewjr11" target="_blank" rel="author">Andrewjr11</a> </span>
+</header>
+<!-- /Intestazione -->
+
+<!-- Introduzione -->
+<section class="entry" id="entry-content">
+<p>Ci sono diversi modi per restare anonimi su internet da PC, Smarthpone e TV, e può servire per non lasciare tracce di visita sui siti, per sfruttare i i servizi online oscurati o bloccati, per usare servizi riservati solo nei loro territori e, cosa più importante, per mantenere la privacy</p>
+<p>Navigare restando anonimi significa che il nostro IP in uscita da internet è diverso da quello vero e diverso ad ogni connessione, inoltre può diventare possibile visitare siti che sono bloccati da proxy aziendali.</p>
+<p>Navigare anonimi ha tra i suoi scopi anche quello di usare servizi online limitati, gratuitamente e senza dover fare abbonamenti.</p>
+<!-- /Introduzione -->
+
+<!-- Indice -->
+<h2 class="ah"><strong>Indice</strong></h2><ul class="ah">
+<li><a href="#chapter1">Diventare anonimi</a>
+<ul>
+<li><a href="#sub-chapter1">Metodi</a></li>
+</ul>
+</li>
+
+<li><a href="#chapter2">Articolo</a>
+<ul>
+<li><a href="#sub-chapter2">Altro</a></li>
+<li><a href="#sub-chapter3">FAQ</a></li>
+</ul>
+</li>
+</ul>
+<!-- /Indice -->
+
+<!-- Diventare anonimi -->
+<p><a name="chapter1"></a></p>
+<h2><strong>Diventare anonimi</strong></h2>
+<p><a name="sub-chapter1"></a></p>
+<h3>Metodi</h3>
+<p>Esistono software che permettono di renderci anonimi in rete, ecco i migliori:</p>
+<ul>
+<li><p>1) <strong>TOR</strong> --> <a href="https://www.torproject.org/download/download-easy.html" target="_blank">Clicca qui</a>.</p></li>
+<ul>
+<p>Il software migliore che puoi utilizzare è TOR, un programma molto importante che tutti dovrebbero avere sul proprio PC. Con TOR si può cambiare identità virtuale su internet, ogni volta che lo si desidera.</p>
+</ul>
+
+<li><p>2) <strong>AnonymoX</strong> --> <a href="https://chrome.google.com/webstore/detail/anonymox/icpklikeghomkemdellmmkoifgfbakio?hl=it" target="_blank">Link - Chrome</a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/anonymox/" target="_blank">Link - Firefox</a>.</p></li>
+<ul>
+<p>AnonymoX è un'estensione che basta installare sul proprio browser per navigare con IP straniero. Con AnonymoX si può scegliere, cliccando sulla barra degli strumenti in basso a destra in Firefox, il server a cui collegarsi per camuffare l'IP. Esso inoltre identifica gli IP Stealth che i siti web non riconoscono come generati da proxy permettendo quindi di navigare su siti con restrizioni geografiche e non disponibili in Italia. AnonymoX è la soluzione più facile ed efficiente che si può trovare e sfrutta anche i server di TOR.</p>
+</ul>
+
+<li><p>3) <strong>SafeIP</strong> --> <a href="http://www.freesafeip.com/" target="_blank">Clicca qui</a>.</p></li>
+<ul>
+<p>SafeIP serve per proteggere l'identità su internet e nascondere l'indirizzo IP reale per navigare sul web in forma anonima. Gli utenti possono scegliere la posizione geografica dell'IP falso velocemente. L'interfaccia di SafeIP è facile da usare e per attivare la navigazione anonima basta selezionare il paese di cui si vuole l'IP falso.</p>
+</ul>
+
+<li><p>4) <strong>VPN</strong>.</p></li>
+<ul>
+<p>Uno dei migliori metodi per navigare anonimamente sul web è quello di utilizzare una VPN (Virtual Private Network). Per maggiori informazioni --> <a href="" target="_blank">Cos'è una VPN?</a> | <a href="" target="_blank">Le migliori VPN</a>.</p>
+</ul>
+
+<li><p>5) <strong>Proxy</strong>.</p></li>
+<ul>
+<p>Un altro metodo per navigare anonimamente sul web è quello di utilizzare un Proxy. Per maggiori informazioni --> <a href="" target="_blank">Cos'è un Proxy?</a> | <a href="" target="_blank">I migliori Proxy</a>.</p>
+</ul>
+</ul>
+<!-- /Diventare anonimi -->
+
+<!-- Altro + FAQ -->
+<p><a name="chapter2"></a></p>
+<h2><strong>Articolo</strong></h2>
+<p><a name="sub-chapter2"></a></p>
+<h3>Altro</h3>
+<p>Ecco a te altri contenuti simili che puoi consultare:</p>
+<ul>
+<li><p style="color:green">Video guide</p>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/mQohUkCxsxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/irPKNRbmC0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+<li><p style="color:green">Articoli</p>
+<ul>
+<li><a href="https://www.navigaweb.net/2008/04/navigare-restando-anonimi-e-scaricare.html" target="_blank">Navigare anonimi su internet con i proxy, vpn e indirizzi IP falsi</a></li>
+<li><a href="https://www.alground.com/site/navigare-anonimi-internet-guida/49049/" target="_blank">Come navigare anonimi su internet. Guida completa e sincera</a></li>
+<li><a href="https://www.informaticapertutti.com/navigare-anonimi-su-internet-ecco-come-farlo/" target="_blank">Navigare anonimi su Internet? Ecco come farlo!</a></li>
+</ul>
+</li>
+</ul>
+
+<p><a name="sub-chapter3"></a></p>
+<h3>FAQ</h3>
+<p>In questo capitolo cercherò di rispondere alle <strong>domande più frequenti</strong> riguardo questo articolo:</p>
+<ul>
+<li><h3 style="color:#0086df">Non sono disponibili domande per questo articolo.</h3></li>
+</ul>
+<br>
+<p style="margin-bottom:0">Se hai altre domande da fare, puoi contattarci al seguente indirizzo mail:<a href="https://gmail.com" target="_blank" style="color:green"> freegiveblog@gmail.com</a></p>
+<!-- /Altro + FAQ -->
+
+</article>
+
+</div>
+</div>
+<!-- /Articolo -->
+
+<!-- Footer -->
+<footer id="footer">
+<ul class="inline">
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<li><a href="../../../sezioni/tos.html">TOS</a></li>
+</ul>
+<br><br>
+<ul class="inline">
+<li><a href="../../../sezioni/tos.html" style="color:red">Avviso</a>Il team di "© ✔ Free&Give ✔" non si assume nessuna responsabilità dei contenuti qui presenti e dell'uso che ne farete.
+</li>
+</ul>
+</footer>
+<!-- /Footer -->
+
+</body>
+</html>
