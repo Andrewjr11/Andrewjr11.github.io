@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<!-- Script iniziale -->
+<script id="allow-copy_script">(function agent() {
+	let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()
+</script>
+<!-- /Script iniziale -->
+
+<!-- Links -->
+<title>✔ Free&Give ✔</title>
+<link rel="stylesheet" href="../../../css/articoli-style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../fav/favicon-16x16.png">
+<link rel="manifest" href="../../../fav/site.webmanifest">
+<link rel="mask-icon" href="../../../fav/safari-pinned-tab.svg" color="#5bbad5">
+<!-- /Links -->
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="fb:pages" content="185733358679">
+<meta name="viewport" content="width=device-width">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="Free&amp;Give">
+<meta name="application-name" content="Free&amp;Give">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<!-- /Meta -->
+
+<!-- Header -->
+<header id="header">
+<div class="content">
+<a href="../../../index.html" class="logo" id="aranzulla-logo"><h1 class="logo2" id "freegive-logo" style="margin:0px 0px"><span style="color:lime">✔</span><span style="color:red"> Free&Give </span><span style="color:lime">✔</span></h2><!--<img src="./img/logo.png.pagespeed.ce.VDUd3HxLHh.png" alt="Free&Give"></a>-->
+<nav id="primaryNav" role="navigation">
+<ul class="inline">
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<!--<li class="nowtv"><a href="" rel="nofollow" target="_blank">Info</a></li>-->
+</ul>
+</nav>
+<form action="https://www.google.it/search" target="_blank" id="search">
+<input type="text" name="q" data-type="searchinput" class="text" placeholder="Cerca...">
+</form>
+</div>
+</header>
+<!-- /Header -->
+
+<!-- Articolo -->
+<div id="page" class="content">
+<ol class="breadcrumbs"><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../index.html" rel="home" itemprop="url" class="title"><span itemprop="title">Home</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../../sezioni/mobile.html" itemprop="url" class="title"><span itemprop="title">Mobile</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./smartphone.html" itemprop="url" class="title"><span itemprop="title">Smartphone</span></a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./come-aumentare-la-durata-della-batteria.html" itemprop="url" class="title"><span itemprop="title">Come aumentare la durata della bateria</span></a></li></ol>
+<div id="pageContent" class="post">
+
+<!-- Intestazione -->
+<article>
+<header id="pageContentHead">
+<h1>Come aumentare la durata della bateria</h1>
+<span class="author">di <a href="http://bit.ly/andrewjr11" target="_blank" rel="author">Andrewjr11</a> </span>
+</header>
+<!-- /Intestazione -->
+
+<!-- Introduzione -->
+<section class="entry" id="entry-content">
+<p>La batteria del tuo smartphone non arriva a fine giornata? Vorresti estendere la sua durata di qualche ora? Esistono vari fattori che possiamo modificare per poter aumentare sia la durata che le prestazioni della tua batteria senza doverla sostituire.</p>
+<p>In genere la batteria di uno smartphone dura un’intera giornata. Alcune durano anche oltre, ma si tratta di eccezioni. Con delle semplici mosse potrai tuttavia mantenere in vita il tuo dispositivo oltre le 24 ore. </p>
+<p>Premesso che ogni batteria invecchia inevitabilmente e dopo 2 anni (in media) perde comunque molta della sua capacità, ho raccolto in quest'articolo tutti i consigli, i trucchi e i suggerimenti validi per aumentare efficacemente la durata e l’autonomia della batteria del tuo dispositivo mobile.</p>
+<!-- /Introduzione -->
+
+<!-- Indice -->
+<h2 class="ah"><strong>Indice</strong></h2><ul class="ah">
+<li><a href="#chapter1">Impostazioni di sistema</a>
+<ul>
+<li><a href="#sub-chapter1">Android</a></li>
+<li><a href="#sub-chapter2">IOS</a></li>
+</ul>
+</li>
+
+<li><a href="#chapter2">Consigli</a>
+<ul>
+<li><a href="#sub-chapter3">Smartphone</a></li>
+</ul>
+</li>
+
+<li><a href="#chapter3">Articolo</a>
+<ul>
+<li><a href="#sub-chapter4">Altro</a></li>
+<li><a href="#sub-chapter5">FAQ</a></li>
+</ul>
+</li>
+</ul>
+<!-- /Indice -->
+
+<!-- Impostazioni di sistema -->
+<p><a name="chapter1"></a></p>
+<h2><strong>Impostazioni di sistema</strong></h2>
+<p><a name="sub-chapter1"></a></p>
+<h3>Android</h3>
+<p>Se il tuo smartphone è Android:</p>
+<ul>
+<li><p>1) <strong>Riduci</strong> la luminosità dello schermo.</p></li>
+<ul>
+<p>La pratica più comune e più efficiente per aumentare la durata della batteria del proprio smartphone, indipendentemente dal suo sistema operativo, consiste nel ridurre la luminosità dello schermo. Per farlo sul tuo dispositivo Android, <strong>recati</strong> in "Impostazioni > Dispositivo personale > Schermo > Luminosità" e <strong>imposta</strong> una luminosità non superiore al 50%.</p>
+</ul>
+<li><p>2) <strong>Evita</strong> di usare le App più dispendiose.</p></li>
+<ul>
+<p>Le App che tieni in background possono continuare a consumare la batteria del tuo smartphone senza che tu ne sia consapevole. Android fortunatamente ti consente di monitorare il consumo della batteria e di individuare le App più dispendiose: ti basterà quindi <strong>recarti</strong> in "Impostazioni > Altro > Batteria" per conoscere quali App evitare di usare quando sei fuori di casa.</p>
+</ul>
+<li><p>3) <strong>Attiva</strong> la modalità di risparmio energetico.</p></li>
+<ul>
+<p>La maggior parte degli smartphone Android consentono di attivare la modalità di risparmio energetico. In alcuni dispositivi è possibile impostare l’attivazione automatica di questa modalità quando la batteria raggiunge una determinata percentuale di carica. Per attivare il risparmio energetico sul tuo dispositivo Android <strong>recati</strong> in "Impostazioni > Dispositivo personale > Risparmio energetico".</p>
+</ul>
+<li><p>4) <strong>Disattiva</strong> NFC e Bluetooth.</p></li>
+<ul>
+<p>Solitamente il Bluetooth è disattivato di default negli smartphone Android, ma il NFC (Near Field Communication) potrebbe non esserlo. Quest’ultimo consente lo scambio bidirezionale di dati in modalità wireless a corto raggio e, come il Bluetooth, dovrebbe essere attivo solo quando viene effettivamente usato. Per tenere disattivati Bluetooth e NFC sul tuo smartphone Android, assicurati che in "Impostazioni > Connessioni",  per entrambe le voci sia impostata la modalità <strong>OFF</strong>.</p>
+</ul>
+<li><p>5) <strong>Utilizza</strong> sfondi scuri su schermi AMOLED.</p></li>
+<ul>
+<p>Ci sono due tipi di display per smartphone: gli LCD e gli AMOLED. I primi hanno un sistema di illuminazione posteriore che illumina tutti i pixel dello schermo. Mentre negli schermi AMOLED i pixel sono illuminati individualmente. Quindi un pixel colorato è un pixel illuminato che consuma batteria. Al contrario, un pixel nero non viene illuminato per cui non produce alcun consumo. L’aumento della durata della batteria di uno smartphone Android con display AMOLED può dunque avvenire anche attraverso l’uso di uno sfondo con colore predominante il <strong>nero</strong>.</p>
+</ul>
+<li><p>6) <strong>Disattiva</strong> i sistemi di geolocalizzazione (GPS).</p></li>
+<ul>
+<p>Molte App utilizzano la tua posizione per restiturti dei dati geo-referenziati in tempo reale. Ma se usi raramente questo genere di applicazioni, sarebbe buona cosa tenere disattivato il sistema GPS del tuo smartphone. Per disattivare il sistema di geolocalizzazione del tuo smartphone Android, <strong>recati</strong> in "Impostazioni > Altro > Posizione" e <strong>imposta</strong> il servizio su <strong>OFF</strong>.</p>
+</ul>
+<li><p>7) <strong>Disattiva</strong> i controlli Air Gesture.</p></li>
+<ul>
+<p>Se il tuo smartphone Android è un Samsung S4 o una versione successiva, ti consiglio di disattivare il sistema di tracciamento oculare e la funzione Air Gesture per il controllo del dispositivo tramite il movimento delle mani. C’è infatti una buona possibilità che tu non usi mai queste funzioni che, se mantenute attive, causano un inutile consumo della batteria. Per disattivare i controlli Air Gesture del tuo smartphone Android <strong>recati</strong> in "Impostazioni > Dispositivo personale > Movimenti e controlli".</p>
+</ul>
+<li><p>8) <strong>Disattiva</strong> le vibrazioni e le suonerie inutili.</p></li>
+<ul>
+<p>Vibrazioni e suonerie sono un’importante fonte di spreco della batteria. È quindi raccomandabile disattivare quelle inutili, <strong>recati</strong> in "Impostazioni > Dispositivo personale > Suono". Qui ti consiglio di <strong>togliere</strong> la spunta alle seguenti voci: "Tono tastiera composizione", "Tono blocco schermo", "Suono tocco tasto" e "Vibrazione tocco tasto".</p>
+</ul>
+<li><p>9) <strong>Riduci</strong> al minimo i widget nella Home.</p></li>
+<ul>
+<p>I widget sono un ottimo strumento per visualizzare le informazioni in anteprima con un semplice colpo d’occhio sulla schermata Home del tuo Android. Ma per aumentare la durata della batteria del tuo dispositivo ti consiglio di eliminare quelli che non usi. Per farlo <strong>tieni premuto</strong> sull’icona del widget che intendi rimuovere e <strong>trascinala</strong> verso il cestino che comparirà un istante dopo.</p>
+</ul>
+<li><p>10) <strong>Disabilita</strong> le animazioni.</p></li>
+<ul>
+<p>Anche le animazioni, come le vibrazioni e le suonerie, possono causare uno spreco inutile della batteria del proprio smartphone. Nel caso delle animazioni, la disattivazione è però più complessa perchè richiede l’abilitazione della voce "Opzioni sviluppatore" che, per impostazioni predefinite, Android tiene nascosta. Per abilitare le "Opzioni sviluppatore" sul tuo dispositivo Android <strong>recati</strong> in "Impostazioni > Altro > Info sul dispositivo" e <strong>clicca</strong> 7 volte su "Versione build". Torna alla schermata precedente e proprio sopra alla voce "Info sul dispositivo" troverai la nuova voce "Opzioni sviluppatore". <strong>Clicca</strong> quindi su "Opzioni sviluppatore", <strong>scrolla giù</strong> e <strong>disabilita</strong> le seguenti opzioni: "Scala animazione finestra", "Scala animazione transizione" e "Scala durata animatore".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="http://www.rehostacademy.it/wp-content/uploads/2015/03/aumentare-durata-batteria-android.jpg" width="610" height="461" srcset="http://www.rehostacademy.it/wp-content/uploads/2015/03/aumentare-durata-batteria-android.jpg 610w, http://www.rehostacademy.it/wp-content/uploads/2015/03/aumentare-durata-batteria-android.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+</ul>
+
+<p><a name="sub-chapter2"></a></p>
+<h3>IOS</h3>
+<p>Se invece il tuo smartphone è IOS:</p>
+<ul>
+<li><p>1) <strong>Limita</strong> i servizi di geolocalizzazione (GPS).</p></li>
+<ul>
+<p>Una delle funzioni che incide di più sulla batteria del tuo dispositivo IOS è proprio la geolocalizzazione. Il mio consiglio è quello di abilitare la funzione soltanto alle applicazioni che utilizzi più frequentemente e disattivare tutte le altre. <strong>Recati</strong> in "Impostazioni > Privacy > Localizzazione" e <strong>disattiva</strong> le app che non utilizzi spesso.</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/localizzazione-app.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/localizzazione-app.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/localizzazione-app.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>2) <strong>Disattiva</strong> la luminosità automatica.</p></li>
+<ul>
+<p>Il display è un’altra grande fonte di consumo di batteria. Più alta è la luminosità e meno durerà la batteria del tuo dispositivo. IOS regola automaticamente la luminosità ma questa funzione di default incide in maniera evidente sull’autonomia. Dunque, ti consiglio di disattivarla e impostare manualmente la luminosità al centro. <strong>Recati</strong> in "Impostazioni > Schermo e luminosità" e <strong>disattiva</strong> la voce: "Luminosità automatica".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/luminosita-automatica.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/luminosita-automatica.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/luminosita-automatica.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>3) <strong>Riduci</strong> il tempo di blocco.</p></li>
+<ul>
+<p>Cosa significa? Semplicemente che dovrai ridurre al minimo il tempo che il tuo dispositivo IOS è accesso senza che tu compia nessuna azione. <strong>Recati</strong> in "Impostazioni > Schermo e luminosità > Blocco automatico" e <strong>imposta</strong>: 30 secondi.</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/blocco-automatico-ios.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/blocco-automatico-ios.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/blocco-automatico-ios.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>4) <strong>Disattiva</strong> "Alza per attivare".</p></li>
+<ul>
+<p>Da IOS 10 in poi è possibile attivare il tuo iPhone semplicemente alzandolo dalla superficie su cui è appoggiato. Questa funzione incide notevolmente sulla batteria in quanto il dispositivo dovrà chiedere l’ausilio del sensore accelerometro constantemente. <strong>Recati</strong> in "Impostazioni > Schermo e luminosità" e <strong>disattiva</strong> la voce: "Alza per attivare".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/alza-per-attivare-iphone.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/alza-per-attivare-iphone.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/alza-per-attivare-iphone.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>5) <strong>Disattiva</strong> l’aggiornamento app in background.</p></li>
+<ul>
+<p>La disattivazione dell’aggiornamento automatico delle app in background dovrebbe migliorare notevolmente la durata del tuo dispositivo IOS. <strong>Recati</strong> in "Impostazioni > Generali > Aggiornamento app in background" e <strong>disattiva</strong> la voce: "Aggiorna app in background</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/aggiornamenti-app-background.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/aggiornamenti-app-background.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/aggiornamenti-app-background.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>6) <strong>Limita</strong> le notifiche push delle app.</p></li>
+<ul>
+<p>Ormai quasi tutte le applicazioni sfruttano le notifiche push. È inutile dirti che ciò incide sulla durata della batteria e che bisogna limitare il suo utilizzo alle applicazioni che più utilizzi e quelle a cui è indispensabile. <strong>Recati</strong> in "Impostazioni > Notifiche" e <strong>apri</strong> le app desiderate e <strong>disattiva</strong> le notifiche.</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/notifiche-ios.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/notifiche-ios.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/notifiche-ios.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>7) <strong>Disattiva</strong> i download automatici.</p></li>
+<ul>
+<p>Nel caso tu abbia abilitato i download automatici delle app, ti consiglio di disattivarli immediatamente. <strong>Recati</strong> in "Impostazioni > iTunes Store e App Store" e <strong>disattiva</strong> tutte le voci relative ai "Download Automatici": "Musica", "App", "Libri", e "Aggiornamenti".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/disattivare-download-automatici.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/disattivare-download-automatici.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/disattivare-download-automatici.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>8) <strong>Gestisci</strong> la connessione dati e WiFi.</p></li>
+<ul>
+<p>Altro punto cruciale nel consumo di batteria è senz’altro la connessione ad internet (sia tramite 3G/4G che WiFi). Ma cosa significa gestire la connessione dati e WiFi? Semplicemente attivala e disattivala in modo intelligente: quando sai che non utilizzerai la connessione internet del tuo dispositivo IOS per un lungo periodo della giornata, allora <strong>impostalo</strong> su "Modalità Aereo" o semplicemente <strong>disattiva</strong> il WiFi o la connessione dati dalle impostazioni. Per disattivare la connessione dati <strong>recati</strong> in "Impostazioni > Cellulari"  e <strong>disattiva</strong> la voce: "Dati cellulare". Invece, per disattivare il WiFi <strong>recati</strong> in "Impostazioni > Wi-Fi" e <strong>disattiva</strong> la voce: "Wi-Fi".</p>
+</ul>
+<li><p>9) <strong>Imposta</strong> il Risparmio Energetico.</p></li>
+<ul>
+<p>La modalità "Risparmio Energetico" ti permette di ridurre al minimo il consumo di batteria disattivando momentaneamente alcune funzionalità del tuo dispositivo IOS come: l'aggiornamento email, app in background, download, effetti di transizione e così via. Naturalmente potrai attivarla anche quando la batteria è al 100% in questo modo si scaricherà più lentamente. <strong>Recati</strong> in "Impostazioni > Batteria" e <strong>attiva</strong> la voce: "Risparmio energetico".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/risparmio-energetico-iphone.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/risparmio-energetico-iphone.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/risparmio-energetico-iphone.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+<li><p>10) <strong>Aggiorna</strong> all'ultima versione software.</p></li>
+<ul>
+<p>Apple rilascia regolarmente gli aggiornamenti di IOS. Quest’ultimi migliorano le prestazioni del sistema operativo andando spesso a risolvere bug e anomalie che riducono l’autonomia della batteria. Per verificare se ci sono aggiornamenti disponibili <strong>recati</strong> in "Impostazioni > Generali > Aggiornamento software" e, se disponibile, clicca sulla voce: "Scarica e Installa".</p>
+</ul>
+<p><img class="alignnone size-full wp-image-1122668" src="https://www.iphonecountry.it/wp-content/uploads/2016/09/ios-aggiornamenti-ota.jpg" width="610" height="461" srcset="https://www.iphonecountry.it/wp-content/uploads/2016/09/ios-aggiornamenti-ota.jpg 610w, https://www.iphonecountry.it/wp-content/uploads/2016/09/ios-aggiornamenti-ota.jpg 100w" sizes="(max-width: 610px) 100vw, 610px"></p>
+</ul>
+<!-- /Impostazioni di sistema -->
+
+<!-- Consigli -->
+<p><a name="chapter2"></a></p>
+<h2><strong>Consigli</strong></h2>
+<p><a name="sub-chapter3"></a></p>
+<h3>Smartphone</h3>
+<p>Ecco a te un riassunto generale di tutti gli accorgimenti che puoi utilizzare per risparmiare sul consumo energetico del tuo smartphone:</p>
+<ul>
+<li><p>1) <strong>Aggiorna</strong> all'ultima versione software.</p></li>
+<li><p>2) <strong>Attiva</strong> la modalità di risparmio energetico.</p></li>
+<li><p>3) <strong>Disabilita</strong> le animazioni.</p></li>
+<li><p>4) <strong>Disattiva</strong> "Alza per attivare".</p></li>
+<li><p>5) <strong>Disattiva</strong> NFC e Bluetooth.</p></li>
+<li><p>6) <strong>Disattiva</strong> i controlli Air Gesture.</p></li>
+<li><p>7) <strong>Disattiva</strong> i download automatici.</p></li>
+<li><p>8) <strong>Disattiva</strong> i sistemi di geolocalizzazione (GPS).</p></li>
+<li><p>9) <strong>Disattiva</strong> la luminosità automatica.</p></li>
+<li><p>10) <strong>Disattiva</strong> le vibrazioni e le suonerie inutili.</p></li>
+<li><p>11) <strong>Disattiva</strong> l’aggiornamento app in background.</p></li>
+<li><p>12) <strong>Evita</strong> di usare le App più dispendiose.</p></li>
+<li><p>13) <strong>Gestisci</strong> la connessione dati e WiFi.</p></li>
+<li><p>14) <strong>Limita</strong> le notifiche push delle app.</p></li>
+<li><p>15) <strong>Riduci</strong> al minimo i widget.</p></li>
+<li><p>16) <strong>Riduci</strong> il tempo di blocco.</p></li>
+<li><p>17) <strong>Riduci</strong> la luminosità dello schermo.</p></li>
+<li><p>18) <strong>Utilizza</strong> sfondi scuri su schermi AMOLED.</p></li>
+</ul>
+<!-- /Consigli -->
+
+<!-- Altro + FAQ -->
+<p><a name="chapter3"></a></p>
+<h2><strong>Articolo</strong></h2>
+<p><a name="sub-chapter4"></a></p>
+<h3>Altro</h3>
+<p>Ecco a te altri contenuti simili che puoi consultare:</p>
+<ul>
+<li><p style="color:green">Video guide</p>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/fx1v03W3qFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/zgM7z-DbidU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+<li><p style="color:green">Articoli</p>
+<ul>
+<li><a href="http://www.rehostacademy.it/aumentare-durata-batteria-android/" target="_blank">Come aumentare la durata della batteria su Android in 10 mosse.</a></li>
+<li><a href="https://www.chimerarevo.com/guide/android/aumentare-durata-batteria-157246/" target="_blank">Aumentare la durata della batteria su Android</a></li>
+<li><a href="https://www.applezein.net/wordpress/288572/ios-12-aumentare-durata-batteria/" target="_blank">iOS 12: Ecco come aumentare la durata della batteria di iPhone</a></li>
+<li><a href="https://www.iphonecountry.it/1271/aumentare-durata-batteria-iphone7/" target="_blank">Aumentare durata batteria iPhone</a></li>
+</ul>
+</li>
+</ul>
+
+<p><a name="sub-chapter5"></a></p>
+<h3>FAQ</h3>
+<p>In questo capitolo cercherò di rispondere alle <strong>domande più frequenti</strong> riguardo questo articolo:</p>
+<ul>
+<li><h3 style="color:#0086df">Non sono disponibili domande per questo articolo.</h3></li>
+</ul>
+<br>
+<p style="margin-bottom:0">Se hai altre domande da fare, puoi contattarci al seguente indirizzo mail:<a href="https://gmail.com" target="_blank" style="color:green"> freegiveblog@gmail.com</a></p>
+<!-- /Altro + FAQ -->
+
+</article>
+
+</div>
+</div>
+<!-- /Articolo -->
+
+<!-- Footer -->
+<footer id="footer">
+<ul class="inline">
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../sezioni/pc.html">PC</a></li>
+<li><a href="../../../sezioni/mobile.html">Mobile</a></li>
+<li><a href="../../../sezioni/web.html">Web</a></li>
+<li><a href="../../../sezioni/altro.html">Altro</a></li>
+<li><a href="../../../sezioni/info.html">Info</a></li>
+<li><a href="../../../sezioni/tos.html">TOS</a></li>
+</ul>
+<br><br>
+<ul class="inline">
+<li><a href="../../../sezioni/tos.html" style="color:red">Avviso</a>Il team di "© ✔ Free&Give ✔" non si assume nessuna responsabilità dei contenuti qui presenti e dell'uso che ne farete.
+</li>
+</ul>
+</footer>
+<!-- /Footer -->
+
+</body>
+</html>
