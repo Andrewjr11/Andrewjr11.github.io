@@ -1,0 +1,113 @@
+Nozioni Base:
+	Conversazione:
+		- Iniziare una Conversazione ✔
+		- Mantenere Viva una Conversazione ✔
+		- Consigli ✔
+	Approccio:
+		- Essere Più Socievole ✔
+		- Approcciare una Ragazza ✔
+		- Approcciare un Ragazzo ✔
+		- 10 Comandamenti per Approcciare
+
+Starters:
+	Generali:
+		- 101 Starters ✔
+		- Divertenti ✔
+		- Insoliti ✔
+	Specifici:
+		- Per Ogni Occasione ✔
+		- Per Conoscere Qualcuno ✔
+		- Per Divertirsi ✔
+		- Per Coppie ✔
+		- Per Primo Appuntamento ✔
+		- Per Bambini ✔
+		- Per Adolescenti ✔
+
+Rompi-Ghiaccio:
+	Generali:
+		- Normali ✘
+		- Domande ✘
+		- Divertenti ✘
+	Specifici:
+		- Per Divertirsi ✘
+		- Per Adulti ✘
+		- Per Lavoro ✘
+		- Per Conoscersi ✘
+		- Per Bambini ✘
+
+Domande:
+	Generali:
+		- 100 Domande ✔
+		- Per Luoghi e Situazioni Comuni ✔
+		- Interessanti ✘
+		- Divertenti ✘
+		- Profonde ✘
+		- A Risposta Aperta ✔
+	Specifiche:
+		- Per Divertirsi ✘
+		- Da Fare ad una Ragazza ✔
+		- Da Fare ad un Ragazzo ✔
+		- Da Fare al Partner ✘
+		- Da Fare Prima del Matrimonio ✘
+		- Per Primo Appuntamento ✘
+		- Per Intervista Lavorativa ✘
+		- Da Fare all'Intervistatore Lavorativo ✘
+
+Argomenti:
+	Generali:
+		- Interessanti ✔
+		- Divertenti ✘
+		- Per Divertirsi ✘
+		- Per Bambini ✘
+		- Leadership ✘
+		- Team Building ✘
+	Specifici:
+		- Attività Commerciale ✘
+		- Formazione Scolastica ✘
+		- Famiglia ✘
+		- Cibo ✘
+		- Amore ✘
+		- Soldi ✘
+		- Intrattenimento ✘
+		- Scuola/Lavoro ✘
+
+Generatori:
+	Generali:
+		- Domande ✔
+		- Argomenti ✘
+		- Risposte ✘
+		- Starters ✘
+	Giochi:
+		- Would You Rather ✘
+		- Questo o Quello ✘
+		- Hai Mai ✘
+	Altro:
+		- Indovinelli ✘
+		- Citazioni ✘
+		- Curiosità ✘
+
+Giochi:
+	Generali:
+		- Conversazione ✔
+		- Sociali ✘
+	Would You Rather:
+		- Normali ✔
+		- Divertenti ✔
+		- Per Bambini ✔
+	Questo o Quello:
+		- Normali ✘
+		- Divertenti ✘
+		- Cibo ✘
+		- Per Coppie ✘
+		- Per Bambini ✘
+	Hai Mai:
+		- Normali
+		- Divertenti
+
+Ragazze:
+Ragazzi:
+Coppie:
+Bambini:
+Adolescenti:
+Interviste:
+Altro:

@@ -1,0 +1,225 @@
+<html>
+<script id="allow-copy_script">
+	(function agent() {
+    let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()
+</script>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/site.webmanifest">
+<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="SocialLife">
+<meta name="application-name" content="SocialLife">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SocialLife</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<meta name="description" content="SocialLife">
+</head>
+<body class="vsc-initialized">
+<center>
+<div id="border">
+<div id=header><a href="index.html"><img src="img/header.jpg" border=0></a></div>
+<div id="content">
+<h1 align="center" class="item-title-rainbow"><style>.item-title-rainbow {text-align: center;font-weight: bolder;color: transparent;-webkit-background-clip: text;-webkit-animation: color-change 8s linear infinite;}@-webkit-keyframes color-change{0% { color: red; }50% { color: blue; }100% { color: red; }}</style>
+<i>SocialLife</i>
+</h1>
+<!--<h2 align="center">~ SocialLife ~</h2>-->
+<!--<p class="descrizione">Qui puoi trovare tonnnellate di Starters, Domande e Argomenti per ogni tipo di situazione!</p>-->
+<h3 class="titolo">Nozioni Base:</h3>
+<div class="taptarget">
+<i class="titolo">Conversazione</i>
+<div class="taptarget">
+- <a href="sezioni/nozioni_base/come_iniziare_una_conversazione.html"><b class="sezione">Iniziare una Conversazione</b></a><br>
+- <a href="sezioni/nozioni_base/come_mantenere_viva_una_conversazione.html"><b class="sezione">Mantenere Viva una Conversazione</b></a><br>
+- <a href="sezioni/nozioni_base/consigli_di_conversazione.html"><b class="sezione">Consigli</b></a><br>
+</div>
+<i class="titolo">Approccio</i>
+<div class="taptarget">
+- <a href="sezioni/nozioni_base/come_essere_più_socievole.html"><b class="sezione">Essere Più Socievole</b></a><br>
+- <a href="sezioni/nozioni_base/come_iniziare_una_conversazione_con_una_ragazza.html"><b class="sezione">Approcciare una Ragazza <!--<span>&#9792;</span>--></b></a><br>
+- <a href="sezioni/nozioni_base/come_iniziare_una_conversazione_con_un_ragazzo.html"><b class="sezione">Approcciare un Ragazzo <!--<span>&#9794;</span>--></b></a><br>
+- <a href="sezioni/nozioni_base/10_comandamenti_per_approcciare.html"><b class="sezione">10 Comandamenti per Approcciare</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Starters:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/starters/101_starters.html"><b class="sezione">101 Starters</b></a><br>
+- <a href="sezioni/starters/starters_divertenti.html"><b class="sezione">Divertenti</b></a><br>
+- <a href="sezioni/starters/starters_insoliti.html"><b class="sezione">Insoliti</b></a><br>
+</div>
+<i class="titolo">Specifici</i>
+<div class="taptarget">
+- <a href="sezioni/starters/starters_per_ogni_occasione.html"><b class="sezione">Per Ogni Occasione</b></a><br>
+- <a href="sezioni/starters/starters_per_conoscere_qualcuno.html"><b class="sezione">Per Conoscere Qualcuno</b></a><br>
+- <a href="sezioni/starters/starters_per_divertirsi.html"><b class="sezione">Per Divertirsi</b></a><br>
+- <a href="sezioni/starters/starters_per_coppie.html"><b class="sezione">Per Coppie</b></a><br>
+- <a href="sezioni/starters/starters_per_primo_appuntamento.html"><b class="sezione">Per Primo Appuntamento</b></a><br>
+- <a href="sezioni/starters/starters_per_bambini.html"><b class="sezione">Per Bambini</b></a><br>
+- <a href="sezioni/starters/starters_per_adolescenti.html"><b class="sezione">Per Adolescenti</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Rompi-Ghiaccio:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Normali</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Domande</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Divertenti</b></a><br>
+</div>
+<i class="titolo">Specifici</i>
+<div class="taptarget">
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Per Divertirsi</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Per Adulti</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Per Lavoro</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Per Conoscersi</b></a><br>
+- <a href="sezioni/rompi_ghiaccio/.html"><b class="sezione">Per Bambini</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Domande:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/domande/100_domande.html"><b class="sezione">100 Domande</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Per Luoghi e Situazioni Comuni</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Interessanti</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Divertenti</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Profonde</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">A Risposta Aperta</b></a><br>
+</div>
+<i class="titolo">Specifiche</i>
+<div class="taptarget">
+- <a href="sezioni/domande/.html"><b class="sezione">Per Divertirsi</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Da Fare ad una Ragazza</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Da Fare ad un Ragazzo</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Da Fare al Partner</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Da Fare Prima del Matrimonio</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Per Primo Appuntamento</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Per Intervista Lavorativa</b></a><br>
+- <a href="sezioni/domande/.html"><b class="sezione">Da Fare all'Intervistatore Lavorativo</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Argomenti:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/argomenti/.html"><b class="sezione">Interessanti</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Divertenti</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Per Divertirsi</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Per Bambini</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Leadership</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Team Building</b></a><br>
+</div>
+<i class="titolo">Specifici</i>
+<div class="taptarget">
+- <a href="sezioni/argomenti/.html"><b class="sezione">Attività Commerciale</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Formazione Scolastica</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Famiglia</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Cibo</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Amore</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Soldi</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Intrattenimento</b></a><br>
+- <a href="sezioni/argomenti/.html"><b class="sezione">Scuola/Lavoro</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Generatori:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/generatori/generatore_domande.html"><b class="sezione">Domande</b></a><br>
+- <a href="sezioni/generatori/generatore_argomenti.html"><b class="sezione">Argomenti</b></a><br>
+- <a href="sezioni/generatori/generatore_risposte.html"><b class="sezione">Risposte</b></a><br>
+- <a href="sezioni/generatori/generatore_starters.html"><b class="sezione">Starters</b></a><br>
+</div>
+<i class="titolo">Giochi</i>
+<div class="taptarget">
+- <a href="sezioni/generatori/generatore_would_you_rather.html"><b class="sezione">Would You Rather</b></a><br>
+- <a href="sezioni/generatori/generatore_questo_o_quello.html"><b class="sezione">Questo o Quello</b></a><br>
+- <a href="sezioni/generatori/generatore_hai_mai.html"><b class="sezione">Hai Mai</b></a><br>
+</div>
+<i class="titolo">Altro</i>
+<div class="taptarget">
+- <a href="sezioni/generatori/generatore_indovinelli.html"><b class="sezione">Indovinelli</b></a><br>
+- <a href="sezioni/generatori/generatore_citazioni.html"><b class="sezione">Citazioni</b></a><br>
+- <a href="sezioni/generatori/generatore_curiosità.html"><b class="sezione">Curiosità</b></a><br>
+</div>
+</div>
+<h3 class="titolo">Giochi:</h3>
+<div class="taptarget">
+<i class="titolo">Generali</i>
+<div class="taptarget">
+- <a href="sezioni/giochi/giochi_di_conversazione.html"><b class="sezione">Conversazione</b></a><br>
+- <a href="sezioni/giochi/giochi_sociali.html"><b class="sezione">Sociali</b></a><br>
+</div>
+<i class="titolo">Would You Rather</i>
+<div class="taptarget">
+- <a href="sezioni/giochi/gioco_would_you_rather_normali.html"><b class="sezione">Normali</b></a><br>
+- <a href="sezioni/giochi/gioco_would_you_rather_divertenti.html"><b class="sezione">Divertenti</b></a><br>
+- <a href="sezioni/giochi/gioco_would_you_rather_per_bambini.html"><b class="sezione">Per Bambini</b></a><br>
+</div>
+<i class="titolo">Questo o Quello</i>
+<div class="taptarget">
+- <a href="sezioni/giochi/gioco_questo_o_quello_normali.html"><b class="sezione">Normali</b></a><br>
+- <a href="sezioni/giochi/gioco_questo_o_quello_divertenti.html"><b class="sezione">Divertenti</b></a><br>
+- <a href="sezioni/giochi/gioco_questo_o_quello_cibo.html"><b class="sezione">Cibo</b></a><br>
+- <a href="sezioni/giochi/gioco_questo_o_quello_per_coppie.html"><b class="sezione">Per Coppie</b></a><br>
+- <a href="sezioni/giochi/gioco_questo_o_quello_per_bambini.html"><b class="sezione">Per Bambini</b></a><br>
+</div>
+<i class="titolo">Hai Mai</i>
+<div class="taptarget">
+- <a href="sezioni/giochi/hai_mai_normali.html"><b class="sezione">Normali</b></a><br>
+- <a href="sezioni/giochi/hai_mai_divertenti.html"><b class="sezione">Divertenti</b></a><br>
+</div>
+</div>
+<br>
+<p class="autore">by Andrewjr11 & Kiki</p>
+<br>
+<br>
+</div>
+</div>
+</div>
+<br>
+<!--
+<p>Last update: 28/12/2018</p> 
+<p><a><img src='https://www.counter12.com/img-c087ayWAZcDd6ya3-3.gif' border='0' alt='free counter'></a></p><p style="float:right;margin-right:5px">Visitatori:</p>
+-->
+<center>
+<font size="-1">Copyright © 2019 SocialLife - D.C.A.</font>
+</center>
+<br>
+</body>
+</html>
